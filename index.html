@@ -45,13 +45,13 @@
             statusText.innerText = "Gate Opening...";
             statusText.className = "text-2xl font-semibold text-yellow-500";
 
-            // After 2 seconds -> Gate Open
+            // Delay 2 seconds Gate Open
             setTimeout(function () {
                 statusText.innerText = "Gate Open";
                 statusText.className = "text-2xl font-semibold text-green-500";
             }, 2000);
 
-            // After 5 seconds -> Gate Closed
+            // Delay 5 seconds Gate Closed
             setTimeout(function () {
                 statusText.innerText = "Gate Closed";
                 statusText.className = "text-2xl font-semibold text-red-500";
